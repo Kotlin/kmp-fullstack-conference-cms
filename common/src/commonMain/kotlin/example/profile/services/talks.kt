@@ -1,3 +1,4 @@
+@file:kotlin.js.JsExport
 package example.profile.services
 
 import example.profile.api.model.Talk

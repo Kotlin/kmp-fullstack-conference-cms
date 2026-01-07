@@ -17,6 +17,7 @@ kotlin {
         generateTypeScriptDefinitions()
         compilerOptions {
             target = "es2015"
+            freeCompilerArgs.add("-Xenable-suspend-function-exporting")
         }
     }
 
